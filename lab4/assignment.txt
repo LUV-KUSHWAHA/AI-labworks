@@ -1,0 +1,24 @@
+Project: CNN (AlexNet)
+Bishnu Khadka
+
+Objectives: 
+In this project, you will implement and train two different deep learning architectures (NN, AlexNet, and TinyVGG) on the CIFAR-10 dataset using PyTorch. You will compare their performance in terms of training time, accuracy, and generalization ability.
+
+Tasks:
+Dataset: Use torchvision.datasets.CIFAR10 and apply necessary transformations (e.g., normalization).
+NN: Implement a neural network for the dataset. 
+AlexNet: Build the AlexNet architecture adapted for CIFAR-10 (input size 32x32). Make necessary modifications to the model (e.g., adjusting the first convolutional layer). The paper link is also provided. 
+TinyVGG: Create a smaller architecture (TinyVGG) using fewer layers compared to AlexNet. Focus on simplicity and efficiency. (Also provided details in Lab4)
+Train the three models, using the same optimizer and loss function 
+After training, evaluate both models on the test set and compare: (Accuracy on the test set, Training time and convergence speed, Model complexity (number of parameters), Choose other relevant evaluation metrics as well.)
+Provide the link to your `.ipynb` file in your GitHub repository.
+
+Note: The project will be graded based on the application of the techniques taught in the lab (e.g., hyperparameter tuning, loss function selection, etc.). Also, mention the reasons behind your choices (for example, your reason for choosing, say, recall as an evaluation metric). Additionally, you need to talk about the improvements made by AlexNet over its predecessors. 
+
+Discussion and conclusions are mandatory. 
+
+I highly recommend that everyone go through the AlexNet paper. 
+
+For faster training and free GPU access, you can use Google Colab. 
+
+Best of luck!
